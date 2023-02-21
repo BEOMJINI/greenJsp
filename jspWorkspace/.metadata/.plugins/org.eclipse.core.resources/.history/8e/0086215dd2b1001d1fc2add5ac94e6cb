@@ -21,6 +21,5 @@ String today = now.format(DateTimeFormatter.ofPattern("yyyy/MM/dd"));
 <%--주석이다 jsp --%>
 <h1><%=10+3 %></h1>
 <h1>today <%=today %></h1>
-dd
 </body>
 </html>
