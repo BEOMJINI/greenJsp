@@ -14,10 +14,17 @@
 <%
 
   List<String> idlist = (List<String>)session.getAttribute("idList");
-  out.println(idlist);  
+List<String> pwList=  (List<String>)session.getAttribute("pwList" );
+List<String> nameList= (List<String>)session.getAttribute("nameList" );
+List<String>genderList=(List<String>)session.getAttribute("genderList" );
+
+  out.println(idlist); 
+  out.println(pwList);  
+  out.println(nameList);  
+  out.println(genderList);  
 Object obj = session.getAttribute("idx");
 %>
-test
+
 <table border="1">
 <% if(obj == null){ %>
     <tr>
