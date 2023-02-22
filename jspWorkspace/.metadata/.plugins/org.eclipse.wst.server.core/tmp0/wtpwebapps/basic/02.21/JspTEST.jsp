@@ -23,6 +23,6 @@ String today = now.format(DateTimeFormatter.ofPattern("yyyy/MM/dd"));
 	<h1>
 		today
 		<%=today%></h1>
-	test
+
 </body>
 </html>
