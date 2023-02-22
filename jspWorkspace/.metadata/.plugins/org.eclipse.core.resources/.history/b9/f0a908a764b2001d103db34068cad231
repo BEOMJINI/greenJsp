@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+				<%
+				request.setCharacterEncoding("utf-8");
+				List<String> idlist = (List<String>)session.getAttribute("idList");
+				%>
+
+<div align="center">
+		<h1>관리자 페이지(회원정보 확인하기)</h1>
+		<form method="post" action="01_13_adminUserDelete.jsp">
+			<table border="1">
+				<tr>
+					<td>아이디</td>
+					<td>패스워드</td>
+					<td>이름</td>
+					<td>성별</td>
+					<td><button>삭제</button></td>
+				</tr>
+			
+			</table>
+		</form>
+		<br>
+		
+	</div>
+	
+	<script>
+	const table = document.querrySeletor('table');
+	
+	</script>
+</body>
+</html>
