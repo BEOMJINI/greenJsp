@@ -68,3 +68,11 @@ local.properties
 .sts4-cache/
 
 # End of https://www.toptal.com/developers/gitignore/api/eclipse
+jspWorkspace/.metadata/.log
+jspWorkspace/.metadata/.plugins/org.eclipse.core.resources/.projects/basic/.markers.snap
+jspWorkspace/.metadata/.plugins/org.eclipse.core.resources/.projects/basic/.syncinfo.snap
+jspWorkspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.markers.snap
+jspWorkspace/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.syncinfo.snap
+jspWorkspace/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+jspWorkspace/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml
+jspWorkspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
