@@ -59,6 +59,8 @@ local.properties
 .scala_dependencies
 .worksheet
 
+.metadata/
+
 # jspWorkspace
 .metadata
 .metadata/
