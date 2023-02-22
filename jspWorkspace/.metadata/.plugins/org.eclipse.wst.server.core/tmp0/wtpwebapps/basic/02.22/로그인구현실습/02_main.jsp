@@ -17,7 +17,7 @@
   out.println(idlist);  
 Object obj = session.getAttribute("idx");
 %>
-test
+
 <table border="1">
 <% if(obj == null){ %>
     <tr>
