@@ -36,7 +36,7 @@
 				<td><%= namelist.get(i) %>
 				<td><%= genderlist.get(i) %>
 				<td><button>삭제</button></td>
-				</tr>
+				</tr>cf
 				<%} %>
 			</table>
 		</form>
