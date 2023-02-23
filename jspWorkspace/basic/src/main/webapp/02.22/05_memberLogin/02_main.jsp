@@ -1,6 +1,4 @@
 
-<%@page import="memberLoginJava.MemberVO"%>
-<%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -14,11 +12,12 @@
 <h1> 메인페이지 </h1>
 
 <%
-Object obj = session.getAttribute("idx");
+
+System.out.println(MemberDAO.getInstance());
 %>
 
 <table border="1">
-<% if(obj == null){ %>
+<% if(10 == 10){ %>
 	<tr>
 		<td><a href="03_11_joinForm.jsp"> 회원가입 </a></td>
 		<td><a href="03_21_loginForm.jsp"> 로그인 </a></td>
